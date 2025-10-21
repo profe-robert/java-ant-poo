@@ -7,6 +7,10 @@ public class EmpleadoPorHora extends Empleado implements Bonificable {
         super(id, nombre, sueldoBase);
         this.horas = horas; this.tarifa = tarifa;
     }
+    
+    // Implementación de método definido en interfáz
     @Override public double calcularBonus() { return Math.min(horas * tarifa * 0.05, 100_000); }
+    
+    // Método de esta clase
     @Override public double calcularSalario() { return getSueldoBase() + (horas * tarifa) + calcularBonus(); }
 }

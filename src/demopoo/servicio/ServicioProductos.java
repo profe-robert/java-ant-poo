@@ -14,4 +14,3 @@ public class ServicioProductos {
     public List<Producto> listar() { return repo.listar(); }
     public int conteo() { return repo.total(); }
 }
-

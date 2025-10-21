@@ -10,6 +10,7 @@ public class DemoPOO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         ServicioProductos sp = new ServicioProductos();
         ServicioEmpleados se = new ServicioEmpleados();
         Scanner sc = new Scanner(System.in);
@@ -58,6 +59,7 @@ public class DemoPOO {
                 }
             }
         } while (op != 0);
+        
         System.out.println("Bye!");
     }
     

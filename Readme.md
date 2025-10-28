@@ -14,8 +14,8 @@ Sistema operativo: Windows, macOS o Linux.
 Si NetBeans no detecta tu JDK, ve a Tools → Java Platforms y agréguelo manualmente.
 
 📦 Estructura del proyecto
-DemoPOO/
 ```bash
+DemoPOO/
 ├─ nbproject/              # Metadatos del proyecto (NetBeans/Ant)
 ├─ src/
 │  └─ cl/demopoo/

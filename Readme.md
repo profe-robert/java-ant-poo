@@ -15,6 +15,7 @@ Si NetBeans no detecta tu JDK, ve a Tools → Java Platforms y agréguelo manual
 
 📦 Estructura del proyecto
 DemoPOO/
+```bash
 ├─ nbproject/              # Metadatos del proyecto (NetBeans/Ant)
 ├─ src/
 │  └─ cl/demopoo/
@@ -25,6 +26,7 @@ DemoPOO/
 ├─ dist/                   # Artefactos .jar (ignorado por Git)
 ├─ build.xml               # Script Ant (NetBeans)
 └─ README.md
+```
 
 ▶️ Ejecutar en NetBeans (recomendado)
 
